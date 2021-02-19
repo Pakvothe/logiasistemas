@@ -51,16 +51,16 @@ const HomePage = () => {
 			}}
 		>
 			<Navbar />
-			<Route exact path='/'>
+			<Route exact path='/logiasistemas/'>
 				<Home />
 			</Route>
-			<Route exact path='/about'>
+			<Route exact path='/logiasistemas/about'>
 				<AboutUs />
 			</Route>
-			<Route exact path='/products'>
+			<Route exact path='/logiasistemas/products'>
 				<Products />
 			</Route>
-			<Route exact path='/contact'>
+			<Route exact path='/logiasistemas/contact'>
 				<Contact />
 			</Route>
 			<Footer />

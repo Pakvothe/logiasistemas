@@ -9,10 +9,10 @@ const Home = () => {
 	const history = useHistory();
 
 	const handleProduct = () => {
-		history.push('/products');
+		history.push('/logiasistemas/products');
 	};
 	const handleContact = () => {
-		history.push('/contact');
+		history.push('/logiasistemas/contact');
 	};
 	return (
 		<StyledHome>

@@ -23,15 +23,15 @@ const Navbar = () => {
 	return (
 		<Fade>
 			<NavbarStyled>
-				<Link to='/' className='title'>
+				<Link to='/logiasistemas/' className='title'>
 					<p>Logia Sistemas</p>
 				</Link>
 
 				<div className='navContainer'>
-					<Link to='/'>Inicio</Link>
-					<Link to='/products'>Productos</Link>
-					<Link to='/about'>Que hacemos</Link>
-					<Link to='contact'>Contacto</Link>
+					<Link to='/logiasistemas/'>Inicio</Link>
+					<Link to='/logiasistemas/products'>Productos</Link>
+					<Link to='/logiasistemas/about'>Que hacemos</Link>
+					<Link to='/logiasistemas/contact'>Contacto</Link>
 					<button onClick={handleTheme}>
 						<StyledSVG src={theme === 'light' ? sun : moon} />
 					</button>
