@@ -94,6 +94,7 @@ export const StyledHome = styled.div`
 			padding: 2em;
 			transition: background-color 0.2s ease-in-out;
 			word-wrap: normal;
+			box-shadow: 0 7px 30px rgba(0, 0, 0, 0.7);
 
 			.cardTitle {
 				font-size: 1.5em;
