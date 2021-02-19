@@ -116,6 +116,64 @@ export const StyledHome = styled.div`
 			}
 		}
 	}
+
+	@media (max-width: 1100px) {
+		.CardContainer {
+			.Card {
+				align-items: center;
+				justify-content: center;
+				width: 45%;
+			}
+		}
+	}
+	@media (max-width: 800px) {
+		.ParallaxInside {
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+
+			.sideBar {
+				width: 100%;
+				height: 50%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-evenly;
+			}
+
+			.contactContainer {
+				height: 20%;
+				width: 200px;
+			}
+
+			.CardContainer {
+				.Card {
+					align-items: center;
+					justify-content: center;
+					width: 70%;
+					min-height: 40vh;
+				}
+			}
+		}
+	}
+	@media (max-width: 550px) {
+		.CardContainer {
+			padding: 0 1em;
+			.Card {
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				min-height: 40vh;
+			}
+		}
+		.intro {
+			font-size: 1.1em;
+		}
+		.homeTitle {
+			font-size: 1.7em;
+			margin: 1em 5px;
+		}
+	}
 `;
 
 export const StyledSVG = styled(SVG)`

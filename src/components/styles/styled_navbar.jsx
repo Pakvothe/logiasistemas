@@ -52,13 +52,35 @@ export const NavbarStyled = styled.nav`
 			}
 		}
 	}
+
+	@media (max-width: 920px) {
+		height: 100%;
+		flex-direction: column;
+		padding: 1em 0;
+		.title {
+			margin: 0.5em auto;
+			position: relative;
+		}
+
+		.navContainer {
+			width: 100%;
+			flex-direction: column;
+			margin: 0 auto;
+
+			a {
+				margin-bottom: 0.5em;
+			}
+
+			button {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+			}
+		}
+	}
 `;
 
 export const StyledSVG = styled(SVG)`
 	height: 2em;
 	cursor: pointer;
-
-	@media (max-width: 480px) {
-		height: 1.5em;
-	}
 `;

@@ -14,8 +14,8 @@ export const ScrollButton = styled.button`
 	pointer-events: none;
 	opacity: 0;
 	position: fixed;
-	right: 50px;
-	bottom: 60px;
+	right: 25px;
+	bottom: 10px;
 	border: 0;
 	padding: 0.3em;
 	background: var(--clr-primary);
@@ -40,12 +40,12 @@ export const ScrollButton = styled.button`
 		outline: none;
 	}
 	@media (max-width: 480px) {
-		right: 4px;
-		bottom: 20px;
+		right: 10px;
+		bottom: 50px;
 		padding: 0.3em;
 		svg {
-			width: 2.2em;
-			height: 2.2em;
+			width: 1.5em;
+			height: 1.5em;
 		}
 	}
 `;

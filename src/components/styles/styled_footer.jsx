@@ -30,8 +30,11 @@ export const StyledFooter = styled.footer`
 		.SocialContainer {
 			display: flex;
 			width: 30%;
-			justify-content: space-around;
 			align-items: center;
+
+			svg {
+				margin: 0 auto;
+			}
 		}
 
 		a {
@@ -40,6 +43,37 @@ export const StyledFooter = styled.footer`
 			transition: color 0.2s ease-in-out;
 			text-decoration: none;
 			color: var(--clr-primary-dark);
+		}
+	}
+	@media (max-width: 920px) {
+		height: 100%;
+		flex-direction: column;
+		padding: 1em;
+
+		.ItemContainer {
+			padding: 1em;
+			width: 100%;
+			margin: 1em 0;
+
+			p {
+				font-size: 0.9em;
+			}
+			.SocialContainer {
+				width: 15%;
+			}
+		}
+	}
+
+	@media (max-width: 600px) {
+		padding: 0.5em;
+
+		.ItemContainer {
+			padding: 0.4em;
+			width: 100%;
+
+			.SocialContainer {
+				width: 20%;
+			}
 		}
 	}
 `;
@@ -54,6 +88,10 @@ export const SignContainer = styled.div`
 		text-decoration: none;
 		color: var(--clr-primary-dark);
 		font-weight: bold;
+	}
+
+	@media (max-width: 600px) {
+		flex-direction: column;
 	}
 `;
 export const StyledSVG = styled(SVG)`
