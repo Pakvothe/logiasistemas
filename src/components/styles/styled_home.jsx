@@ -6,7 +6,7 @@ export const StyledHome = styled.div`
 		height: 80vh;
 		.sideBar {
 			background-color: rgba(0, 0, 0, 0.8);
-			width: 25%;
+			width: 400px;
 			height: 100%;
 			box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 			display: flex;
@@ -41,18 +41,22 @@ export const StyledHome = styled.div`
 				}
 
 				.ContactButton {
-					background-color: var(--clr-primary);
-					padding: 0.7em 2.5em;
-					border-radius: 99em;
 					text-decoration: none;
 					font-size: 1.5em;
 					font-weight: bold;
 					color: white;
-					transition: background-color 0.4s ease-in-out;
+				}
+			}
 
-					&:hover {
-						background-color: var(--clr-primary-dark);
-					}
+			.contactContainer {
+				border-radius: 99em;
+				background-color: var(--clr-primary);
+				transition: background-color 0.4s ease-in-out;
+				cursor: pointer;
+				height: 18%;
+				width: 100%;
+				&:hover {
+					background-color: var(--clr-primary-dark);
 				}
 			}
 		}
@@ -75,7 +79,6 @@ export const StyledHome = styled.div`
 		padding: 0 4em;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		flex-wrap: wrap;
 
 		.Card {
@@ -87,9 +90,10 @@ export const StyledHome = styled.div`
 			width: 30%;
 			border: 2px solid var(--clr-primary-dark);
 			border-radius: 1em;
-			height: 60vh;
+			min-height: 60vh;
 			padding: 2em;
 			transition: background-color 0.2s ease-in-out;
+			word-wrap: normal;
 
 			.cardTitle {
 				font-size: 1.5em;

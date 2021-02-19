@@ -20,7 +20,7 @@ const HomePage = () => {
 	window.onscroll = function () {
 		scrollFunction();
 	};
-	const scrollDistance = 700;
+	const scrollDistance = 400;
 
 	function scrollFunction() {
 		if (scrollButton.current) {
