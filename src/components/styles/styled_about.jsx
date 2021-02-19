@@ -26,7 +26,7 @@ export const StyledAbout = styled.div`
 			width: 49%;
 			border: 2px solid var(--clr-primary-dark);
 			border-radius: 1em;
-			min-height: 50vh;
+			min-height: 52vh;
 			padding: 0 2em;
 			word-wrap: normal;
 			box-shadow: 0 7px 30px rgba(0, 0, 0, 0.7);

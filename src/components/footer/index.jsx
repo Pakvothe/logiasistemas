@@ -33,7 +33,7 @@ const Footer = () => {
 							info@logiasistemas.com.ar
 						</a>
 						<p>Teléfono: (011) 2091-9175</p>
-						<p>Móvil:(011) 2461-0064</p>
+						<p>Móvil:(011) 2461-0062</p>
 					</div>
 				</StyledFooter>
 			</Fade>
