@@ -15,9 +15,15 @@ export const ContactStyled = styled.div`
 		margin-bottom: 1em;
 		color: var(--clr-primary-dark);
 		font-weight: bold;
+		text-align: center;
 	}
 
 	.container1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
 		margin-bottom: 1em;
 
 		p {
@@ -26,6 +32,10 @@ export const ContactStyled = styled.div`
 	}
 
 	.container2 {
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		p {
 			margin-bottom: 0.5em;
 		}
@@ -34,6 +44,22 @@ export const ContactStyled = styled.div`
 			text-decoration: none;
 			color: var(--clr-primary-dark);
 			font-weight: bold;
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 500px) {
+		margin: 2em;
+		padding: 1.5em;
+		.title {
+			font-size: 1.4em;
+		}
+
+		.container1 {
+			font-size: 0.9em;
+		}
+		.container2 {
+			font-size: 0.9em;
 		}
 	}
 `;

@@ -22,7 +22,7 @@ const Home = () => {
 						<div className='sideBar'>
 							<div className='sideItems'>
 								<h3>Seguridad</h3>
-								<p>Electronica</p>
+								<p>Electrónica</p>
 							</div>
 							<div className='sideItems'>
 								<p>Sistemas inteligentes,</p>

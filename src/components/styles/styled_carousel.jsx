@@ -31,7 +31,7 @@ export const StyledCarousel = styled.div`
 	.embla__slide__inner {
 		display: flex;
 		overflow: hidden;
-		height: 85vh;
+		height: 86vh;
 		min-height: ${(props) => (props.full ? '600px' : 'auto')};
 
 		@media (max-width: 1000px) {
@@ -138,5 +138,57 @@ export const StyledCarousel = styled.div`
 	}
 	.embla__button--next {
 		right: 1em;
+	}
+
+	@media (max-height: 850px) {
+		.embla__slide__inner {
+			height: 55vh;
+		}
+		@media (max-height: 750px) {
+			.embla__slide__inner {
+				height: 70vh;
+			}
+		}
+		@media (max-height: 650px) {
+			.embla__slide__inner {
+				height: 80vh;
+			}
+		}
+		@media (max-height: 570px) {
+			.embla__slide__inner {
+				height: 92vh;
+			}
+		}
+	}
+	@media (max-width: 600px) {
+		.embla__slide__inner {
+			flex-direction: column;
+
+			.embla__slide__detail {
+				height: 60%;
+				padding: 0;
+				.slide__title {
+					font-size: 1.5em;
+					margin-top: 1em;
+				}
+				.slide__details__left {
+					height: 100%;
+					padding: 1em;
+					font-size: 0.9em;
+					line-height: 1.2em;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					margin-bottom: 1em;
+				}
+			}
+		}
+		.embla__slide__img {
+			display: block;
+			height: 40%;
+			min-height: 40%;
+			width: 100%;
+			max-width: none;
+		}
 	}
 `;

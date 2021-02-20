@@ -11,10 +11,10 @@ import { useEmblaCarousel } from 'embla-carousel/react';
 import { useRecursiveTimeout } from './useRecursiveTimeout';
 import { Link, useHistory } from 'react-router-dom';
 
-const AUTOPLAY_INTERVAL = 5000;
+const AUTOPLAY_INTERVAL = 8500;
 
 const Products = () => {
-	const [viewportRef, embla] = useEmblaCarousel({ loop: true, speed: 4 });
+	const [viewportRef, embla] = useEmblaCarousel({ loop: true, speed: 5 });
 	const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
 	const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
 	const history = useHistory();

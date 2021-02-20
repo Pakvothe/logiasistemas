@@ -40,7 +40,6 @@ export const StyledAbout = styled.div`
 				.title {
 					font-size: 1.5em;
 					margin-bottom: 1em;
-					text-align: left;
 					width: 80%;
 					text-align: center;
 				}
@@ -49,6 +48,20 @@ export const StyledAbout = styled.div`
 			.info {
 				line-height: 1.3em;
 				font-size: 16px;
+			}
+		}
+	}
+	@media (max-width: 900px) {
+		.CardContainer {
+			.Card {
+				width: 95%;
+				min-height: 30vh;
+				padding: 0 2em 2em 2em;
+
+				.info {
+					line-height: 1.1em;
+					font-size: 1.2em;
+				}
 			}
 		}
 	}
