@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/logiasistemas/static/css/main.0607c000.chunk.css",
-    "main.js": "/logiasistemas/static/js/main.bf457a52.chunk.js",
-    "main.js.map": "/logiasistemas/static/js/main.bf457a52.chunk.js.map",
+    "main.css": "/logiasistemas/static/css/main.a789d561.chunk.css",
+    "main.js": "/logiasistemas/static/js/main.95408ed6.chunk.js",
+    "main.js.map": "/logiasistemas/static/js/main.95408ed6.chunk.js.map",
     "runtime-main.js": "/logiasistemas/static/js/runtime-main.0924cc17.js",
     "runtime-main.js.map": "/logiasistemas/static/js/runtime-main.0924cc17.js.map",
     "static/js/2.9d58454f.chunk.js": "/logiasistemas/static/js/2.9d58454f.chunk.js",
     "static/js/2.9d58454f.chunk.js.map": "/logiasistemas/static/js/2.9d58454f.chunk.js.map",
     "index.html": "/logiasistemas/index.html",
-    "static/css/main.0607c000.chunk.css.map": "/logiasistemas/static/css/main.0607c000.chunk.css.map",
+    "static/css/main.a789d561.chunk.css.map": "/logiasistemas/static/css/main.a789d561.chunk.css.map",
     "static/js/2.9d58454f.chunk.js.LICENSE.txt": "/logiasistemas/static/js/2.9d58454f.chunk.js.LICENSE.txt",
     "static/media/Camaras-Seguridad.e4fd5acc.jpg": "/logiasistemas/static/media/Camaras-Seguridad.e4fd5acc.jpg",
     "static/media/acceso.545e3953.jpg": "/logiasistemas/static/media/acceso.545e3953.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.0924cc17.js",
     "static/js/2.9d58454f.chunk.js",
-    "static/css/main.0607c000.chunk.css",
-    "static/js/main.bf457a52.chunk.js"
+    "static/css/main.a789d561.chunk.css",
+    "static/js/main.95408ed6.chunk.js"
   ]
 }
