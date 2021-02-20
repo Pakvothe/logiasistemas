@@ -29,11 +29,10 @@ export const StyledFooter = styled.footer`
 
 		.SocialContainer {
 			display: flex;
-			width: 30%;
 			align-items: center;
 
 			svg {
-				margin: 0 auto;
+				margin: 0 0.2em;
 			}
 		}
 
@@ -58,9 +57,6 @@ export const StyledFooter = styled.footer`
 			p {
 				font-size: 0.9em;
 			}
-			.SocialContainer {
-				width: 15%;
-			}
 		}
 	}
 
@@ -70,10 +66,6 @@ export const StyledFooter = styled.footer`
 		.ItemContainer {
 			padding: 0.4em;
 			width: 100%;
-
-			.SocialContainer {
-				width: 20%;
-			}
 		}
 	}
 `;

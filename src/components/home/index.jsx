@@ -111,7 +111,7 @@ const Home = () => {
 				</Fade>
 				<Fade>
 					<div className='Card' onClick={handleProduct}>
-						<p className='cardTitle'>Control de Acceso</p>
+						<p className='cardTitle'>Alarmas</p>
 						<p className='cardInfo'>
 							Es una central de alarma electrónica e inalámbrica
 							con llamador por red celular GSM, no necesita una

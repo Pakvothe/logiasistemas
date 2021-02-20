@@ -8,6 +8,16 @@ import facebook from '../../assets/img/facebook.svg';
 import twitter from '../../assets/img/twitter.svg';
 import Fade from 'react-reveal/Fade';
 import Tada from 'react-reveal/Tada';
+import {
+	FacebookShareButton,
+	TwitterShareButton,
+	LinkedinShareButton,
+	WhatsappShareButton,
+	FacebookIcon,
+	TwitterIcon,
+	LinkedinIcon,
+	WhatsappIcon,
+} from 'react-share';
 
 const Footer = () => {
 	return (
@@ -22,8 +32,33 @@ const Footer = () => {
 					<div className='ItemContainer'>
 						<h3>Redomendanos</h3>
 						<div className='SocialContainer'>
-							<StyledSVG src={facebook} />
-							<StyledSVG src={twitter} />
+							<FacebookShareButton
+								quote='Logia Sistemas: Somos una empresa jov﻿en y pujante cuyo objetivo es acercar hacia la excelencia tecnológica en seguridad y comunicaciones a todos los entes públicos, privados y a toda la comunidad en su conjunto!'
+								url='https://pakvothe.github.io/logiasistemas/'
+							>
+								<FacebookIcon round={true} size='2em' />
+							</FacebookShareButton>
+							<TwitterShareButton
+								url='https://pakvothe.github.io/logiasistemas/'
+								title='Logia Sistemas: Sistemas inteligentes, personas inteligentes.'
+							>
+								<TwitterIcon round={true} size='2em' />
+							</TwitterShareButton>
+							<WhatsappShareButton
+								url='https://pakvothe.github.io/logiasistemas/'
+								title='Logia Sistemas: Sistemas inteligentes, personas inteligentes.'
+								separator=':: '
+							>
+								<WhatsappIcon round={true} size='2em' />
+							</WhatsappShareButton>
+							<LinkedinShareButton
+								title='Logia Sistemas: Sistemas inteligentes, personas inteligentes.'
+								url='https://pakvothe.github.io/logiasistemas/'
+								windowWidth={750}
+								windowHeight={600}
+							>
+								<LinkedinIcon round={true} size='2em' />
+							</LinkedinShareButton>
 						</div>
 					</div>
 					<div className='ItemContainer'>
