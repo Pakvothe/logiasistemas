@@ -4,8 +4,6 @@ import {
 	SignContainer,
 	StyledSVG,
 } from '../styles/styled_footer';
-import facebook from '../../assets/img/facebook.svg';
-import twitter from '../../assets/img/twitter.svg';
 import Fade from 'react-reveal/Fade';
 import Tada from 'react-reveal/Tada';
 import {
@@ -26,11 +24,11 @@ const Footer = () => {
 				<StyledFooter>
 					<div className='ItemContainer'>
 						<h3>Dirección</h3>
-						<p>Ventura Bustos 1935. Castelar (1712)</p>
-						<p>Buenos Aires - Argentina</p>
+						<address>Ventura Bustos 1935. Castelar (1712)</address>
+						<address>Buenos Aires - Argentina</address>
 					</div>
 					<div className='ItemContainer'>
-						<h3>Redomendanos</h3>
+						<h3>Recomendanos</h3>
 						<div className='SocialContainer'>
 							<FacebookShareButton
 								quote='Logia Sistemas: Somos una empresa jov﻿en y pujante cuyo objetivo es acercar hacia la excelencia tecnológica en seguridad y comunicaciones a todos los entes públicos, privados y a toda la comunidad en su conjunto!'
@@ -67,8 +65,8 @@ const Footer = () => {
 						<a href='mailto:info@logiasistemas.com.ar'>
 							info@logiasistemas.com.ar
 						</a>
-						<p>Teléfono: (011) 2091-9175</p>
-						<p>Móvil:(011) 2461-0062</p>
+						<address>Teléfono: (011) 2091-9175</address>
+						<address>Móvil:(011) 2461-0062</address>
 					</div>
 				</StyledFooter>
 			</Fade>

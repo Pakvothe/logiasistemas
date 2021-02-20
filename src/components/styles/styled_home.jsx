@@ -27,16 +27,17 @@ export const StyledHome = styled.div`
 					text-transform: uppercase;
 					p {
 						color: var(--clr-primary);
-						font-size: 1.5em;
+						font-size: 2em;
 					}
 					h3 {
-						font-size: 2em;
+						font-size: 3em;
 						margin-bottom: 0.3em;
 					}
 				}
 
 				p {
 					color: white;
+					font-size: 1.5em;
 					margin-bottom: 0.3em;
 				}
 
@@ -53,8 +54,8 @@ export const StyledHome = styled.div`
 				background-color: var(--clr-primary);
 				transition: background-color 0.4s ease-in-out;
 				cursor: pointer;
-				height: 18%;
-				width: 100%;
+				height: 15%;
+				width: 90%;
 				&:hover {
 					background-color: var(--clr-primary-dark);
 				}
@@ -66,6 +67,7 @@ export const StyledHome = styled.div`
 		margin: 2em;
 		text-align: center;
 		font-size: 1.2em;
+		line-height: 1.2em;
 		font-style: italic;
 	}
 
@@ -73,6 +75,7 @@ export const StyledHome = styled.div`
 		text-align: center;
 		color: var(--clr-primary-dark);
 		margin-bottom: 1em;
+		line-height: 1.3em;
 	}
 
 	.CardContainer {
@@ -82,19 +85,20 @@ export const StyledHome = styled.div`
 		flex-wrap: wrap;
 
 		.Card {
-			margin: 1em auto 2em auto;
+			margin: 1em;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			cursor: pointer;
-			width: 30%;
+			width: 350px;
+			height: 400px;
 			border: 2px solid var(--clr-primary-dark);
 			border-radius: 1em;
-			min-height: 60vh;
-			padding: 2em;
+			padding: 1em;
 			transition: background-color 0.2s ease-in-out;
 			word-wrap: normal;
 			box-shadow: 0 7px 30px rgba(0, 0, 0, 0.7);
+			overflow: auto;
 
 			.cardTitle {
 				font-size: 1.5em;
@@ -105,7 +109,6 @@ export const StyledHome = styled.div`
 			}
 
 			.cardInfo {
-				text-align: center;
 				line-height: 1.3em;
 				font-size: 16px;
 			}
@@ -117,15 +120,39 @@ export const StyledHome = styled.div`
 		}
 	}
 
-	@media (max-width: 1100px) {
-		.CardContainer {
-			.Card {
-				align-items: center;
-				justify-content: center;
-				width: 45%;
+	@media (min-height: 800px) {
+		.ParallaxInside {
+			.sideBar {
+				.sideItems {
+				}
+				.contactContainer {
+					margin-top: 1em;
+					height: 75px;
+					width: 90%;
+				}
 			}
 		}
 	}
+	@media (max-width: 900px) {
+		.CardContainer {
+			padding: 0;
+			.Card {
+				align-items: center;
+				justify-content: center;
+				width: 95%;
+			}
+		}
+	}
+	@media (min-width: 901px) {
+		.CardContainer {
+			.Card {
+				height: 350px;
+
+				padding: 1.5em;
+			}
+		}
+	}
+
 	@media (max-width: 800px) {
 		.ParallaxInside {
 			display: flex;
@@ -139,38 +166,38 @@ export const StyledHome = styled.div`
 				flex-direction: column;
 				align-items: center;
 				justify-content: space-evenly;
-			}
 
-			.contactContainer {
-				height: 20%;
-				width: 200px;
-			}
+				.sideItems {
+					&:first-child {
+						margin-bottom: 1em;
+						p {
+							font-size: 1.5em;
+						}
+						h3 {
+							font-size: 2em;
+						}
+					}
 
-			.CardContainer {
-				.Card {
-					align-items: center;
-					justify-content: center;
-					width: 70%;
-					min-height: 40vh;
+					p {
+						color: white;
+						font-size: 1em;
+						margin-bottom: 0.3em;
+					}
+				}
+				.contactContainer {
+					margin-top: 1em;
+					height: 20%;
+					width: 90%;
 				}
 			}
 		}
 	}
 	@media (max-width: 550px) {
-		.CardContainer {
-			padding: 0 1em;
-			.Card {
-				align-items: center;
-				justify-content: center;
-				width: 100%;
-				min-height: 40vh;
-			}
-		}
 		.intro {
 			font-size: 1.1em;
 		}
 		.homeTitle {
-			font-size: 1.7em;
+			font-size: 1.4em;
 			margin: 1em 5px;
 		}
 	}

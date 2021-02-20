@@ -84,11 +84,6 @@ export const StyledCarousel = styled.div`
 					0 0 20px rgba(0, 0, 0, 0.5);
 				transition: text-shadow 0.15s ease-in-out,
 					transform 0.15s ease-in-out;
-				&:hover {
-					transform: translate(3px, 3px);
-					text-shadow: 2px 2px 0px var(--clr-secondary),
-						0 0 20px rgba(0, 0, 0, 0.5);
-				}
 			}
 		}
 	}

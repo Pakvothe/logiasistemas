@@ -30,7 +30,7 @@ const Navbar = () => {
 				<div className='navContainer'>
 					<Link to='/logiasistemas/'>Inicio</Link>
 					<Link to='/logiasistemas/products'>Productos</Link>
-					<Link to='/logiasistemas/about'>Que hacemos</Link>
+					<Link to='/logiasistemas/about'>¿Qué hacemos?</Link>
 					<Link to='/logiasistemas/contact'>Contacto</Link>
 					<button onClick={handleTheme}>
 						<StyledSVG src={theme === 'light' ? sun : moon} />
