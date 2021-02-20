@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/logiasistemas/static/css/main.0607c000.chunk.css",
-    "main.js": "/logiasistemas/static/js/main.9f8c5a63.chunk.js",
-    "main.js.map": "/logiasistemas/static/js/main.9f8c5a63.chunk.js.map",
+    "main.js": "/logiasistemas/static/js/main.bf457a52.chunk.js",
+    "main.js.map": "/logiasistemas/static/js/main.bf457a52.chunk.js.map",
     "runtime-main.js": "/logiasistemas/static/js/runtime-main.0924cc17.js",
     "runtime-main.js.map": "/logiasistemas/static/js/runtime-main.0924cc17.js.map",
-    "static/js/2.e5bcc01c.chunk.js": "/logiasistemas/static/js/2.e5bcc01c.chunk.js",
-    "static/js/2.e5bcc01c.chunk.js.map": "/logiasistemas/static/js/2.e5bcc01c.chunk.js.map",
+    "static/js/2.9d58454f.chunk.js": "/logiasistemas/static/js/2.9d58454f.chunk.js",
+    "static/js/2.9d58454f.chunk.js.map": "/logiasistemas/static/js/2.9d58454f.chunk.js.map",
     "index.html": "/logiasistemas/index.html",
     "static/css/main.0607c000.chunk.css.map": "/logiasistemas/static/css/main.0607c000.chunk.css.map",
-    "static/js/2.e5bcc01c.chunk.js.LICENSE.txt": "/logiasistemas/static/js/2.e5bcc01c.chunk.js.LICENSE.txt",
+    "static/js/2.9d58454f.chunk.js.LICENSE.txt": "/logiasistemas/static/js/2.9d58454f.chunk.js.LICENSE.txt",
     "static/media/Camaras-Seguridad.e4fd5acc.jpg": "/logiasistemas/static/media/Camaras-Seguridad.e4fd5acc.jpg",
     "static/media/acceso.545e3953.jpg": "/logiasistemas/static/media/acceso.545e3953.jpg",
     "static/media/alarmas.53db25ab.jpg": "/logiasistemas/static/media/alarmas.53db25ab.jpg",
@@ -19,17 +19,15 @@
     "static/media/check.6b5be2c6.svg": "/logiasistemas/static/media/check.6b5be2c6.svg",
     "static/media/deteccion.b77d1fb5.jpg": "/logiasistemas/static/media/deteccion.b77d1fb5.jpg",
     "static/media/dinero.68bc8d4d.svg": "/logiasistemas/static/media/dinero.68bc8d4d.svg",
-    "static/media/facebook.32708994.svg": "/logiasistemas/static/media/facebook.32708994.svg",
     "static/media/gears.0ff4f4ee.svg": "/logiasistemas/static/media/gears.0ff4f4ee.svg",
     "static/media/homeback.2c93b220.jpg": "/logiasistemas/static/media/homeback.2c93b220.jpg",
     "static/media/moon.37488b4f.svg": "/logiasistemas/static/media/moon.37488b4f.svg",
-    "static/media/sun.3812551f.svg": "/logiasistemas/static/media/sun.3812551f.svg",
-    "static/media/twitter.536733a8.svg": "/logiasistemas/static/media/twitter.536733a8.svg"
+    "static/media/sun.3812551f.svg": "/logiasistemas/static/media/sun.3812551f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0924cc17.js",
-    "static/js/2.e5bcc01c.chunk.js",
+    "static/js/2.9d58454f.chunk.js",
     "static/css/main.0607c000.chunk.css",
-    "static/js/main.9f8c5a63.chunk.js"
+    "static/js/main.bf457a52.chunk.js"
   ]
 }
