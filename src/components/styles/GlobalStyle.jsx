@@ -40,9 +40,9 @@ export const ScrollButton = styled.button`
 		outline: none;
 	}
 	@media (max-width: 480px) {
-		right: 10px;
-		bottom: 50px;
-		padding: 0.3em;
+		right: 15px;
+		bottom: 15px;
+		padding: 0.5em;
 		svg {
 			width: 1.5em;
 			height: 1.5em;

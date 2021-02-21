@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import SVG from 'react-inlinesvg';
 
 export const StyledAbout = styled.div`
-	height: 100%;
 	.title {
 		text-align: center;
 		margin-top: 2em;
@@ -12,24 +11,27 @@ export const StyledAbout = styled.div`
 	.CardContainer {
 		display: flex;
 		margin-bottom: 2em;
-		justify-content: space-between;
-		align-items: center;
-		padding: 2em;
+		justify-content: center;
+		padding: 0 4em;
+
 		flex-wrap: wrap;
 
 		.Card {
 			position: relative;
-			margin: 1em auto 2em auto;
+			margin: 1em;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			width: 49%;
+			cursor: pointer;
+			width: 350px;
+			height: 420px;
 			border: 2px solid var(--clr-primary-dark);
 			border-radius: 1em;
-			min-height: 52vh;
-			padding: 0 2em;
+			padding: 1em;
+			transition: background-color 0.2s ease-in-out;
 			word-wrap: normal;
 			box-shadow: 0 7px 30px rgba(0, 0, 0, 0.7);
+			overflow: auto;
 
 			.titleContainer {
 				display: flex;
@@ -39,9 +41,10 @@ export const StyledAbout = styled.div`
 
 				.title {
 					font-size: 1.5em;
-					margin-bottom: 1em;
-					width: 80%;
+					text-transform: uppercase;
 					text-align: center;
+					margin-bottom: 1em;
+					color: var(--clr-primary-dark);
 				}
 			}
 
@@ -51,28 +54,26 @@ export const StyledAbout = styled.div`
 			}
 		}
 	}
+
 	@media (max-width: 900px) {
 		.CardContainer {
-			.Card {
-				width: 95%;
-				min-height: 30vh;
-				padding: 0 2em 2em 2em;
+			padding: 0;
 
-				.info {
-					line-height: 1.1em;
-					font-size: 1.2em;
-				}
+			.Card {
+				align-items: center;
+				justify-content: center;
+				width: 95%;
 			}
 		}
 	}
 `;
 export const StyledSVG = styled(SVG)`
-	height: 3.5em;
+	height: 3em;
 	cursor: pointer;
 	fill: var(--clr-primary-dark);
 	position: absolute;
-	right: 0.5em;
-	top: 0.5em;
+	right: 10px;
+	top: 10px;
 
 	transition: fill 0.2s ease-in-out;
 
@@ -81,6 +82,6 @@ export const StyledSVG = styled(SVG)`
 	}
 
 	@media (max-width: 480px) {
-		height: 1.5em;
+		height: 2.5em;
 	}
 `;
