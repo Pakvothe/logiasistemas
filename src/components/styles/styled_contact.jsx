@@ -105,7 +105,7 @@ export const ContactStyled = styled.div`
 	}
 
 	.flex-form-container .submit {
-		width: 50%;
+		min-width: 50%;
 		border-radius: 1em;
 		color: white;
 		font-size: 1.2em;
