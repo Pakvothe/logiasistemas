@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import SVG from 'react-inlinesvg';
 
 export const StyledAbout = styled.div`
-	.title {
+	min-height: 70vh;
+	.titlePpal {
 		text-align: center;
-		margin-top: 2em;
 		color: var(--clr-primary-dark);
 	}
 
@@ -13,7 +13,6 @@ export const StyledAbout = styled.div`
 		margin-bottom: 2em;
 		justify-content: center;
 		padding: 0 4em;
-
 		flex-wrap: wrap;
 
 		.Card {
@@ -44,6 +43,7 @@ export const StyledAbout = styled.div`
 					text-transform: uppercase;
 					text-align: center;
 					margin-bottom: 1em;
+					margin-top: 1em;
 					color: var(--clr-primary-dark);
 				}
 			}

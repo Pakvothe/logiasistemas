@@ -15,7 +15,7 @@ export const ScrollButton = styled.button`
 	opacity: 0;
 	position: fixed;
 	right: 25px;
-	bottom: 10px;
+	bottom: 25px;
 	border: 0;
 	padding: 0.3em;
 	background: var(--clr-primary);

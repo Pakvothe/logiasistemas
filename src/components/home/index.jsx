@@ -7,10 +7,6 @@ import Fade from 'react-reveal/Fade';
 
 const Home = () => {
 	const history = useHistory();
-
-	const handleProduct = () => {
-		history.push('/logiasistemas/products');
-	};
 	const handleContact = () => {
 		history.push('/logiasistemas/contact');
 	};
@@ -55,7 +51,7 @@ const Home = () => {
 			</Fade>
 			<div className='CardContainer'>
 				<Fade>
-					<div className='Card' onClick={handleProduct}>
+					<div className='Card'>
 						<p className='cardTitle'>Sistema de Monitoreo</p>
 						<p className='cardInfo'>
 							Es un sistema de monitoreo en tiempo real mediante
@@ -69,7 +65,7 @@ const Home = () => {
 					</div>
 				</Fade>
 				<Fade>
-					<div className='Card' onClick={handleProduct}>
+					<div className='Card'>
 						<p className='cardTitle'>Portero Visor electrónico</p>
 						<p className='cardInfo'>
 							Es un sistema de portero electrónico con cámara
@@ -82,7 +78,7 @@ const Home = () => {
 					</div>
 				</Fade>
 				<Fade>
-					<div className='Card' onClick={handleProduct}>
+					<div className='Card'>
 						<p className='cardTitle'>Control de Acceso</p>
 						<p className='cardInfo'>
 							Es un sistema de control de acceso que permite
@@ -96,7 +92,7 @@ const Home = () => {
 					</div>
 				</Fade>
 				<Fade>
-					<div className='Card' onClick={handleProduct}>
+					<div className='Card'>
 						<p className='cardTitle'>
 							Detección de Incendio - Inundación
 						</p>
@@ -110,7 +106,7 @@ const Home = () => {
 					</div>
 				</Fade>
 				<Fade>
-					<div className='Card' onClick={handleProduct}>
+					<div className='Card'>
 						<p className='cardTitle'>Alarmas</p>
 						<p className='cardInfo'>
 							Es una central de alarma electrónica e inalámbrica

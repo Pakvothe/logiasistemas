@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledProducts = styled.div`
-	padding: 1em 2em;
+	padding: 0 2em;
 
 	h1 {
 		text-align: center;
@@ -23,7 +23,7 @@ export const StyledProducts = styled.div`
 
 			.productImg {
 				min-width: 35%;
-				height: 420px;
+				height: 100%;
 				border-top-left-radius: 1em;
 				border-bottom-left-radius: 1em;
 			}

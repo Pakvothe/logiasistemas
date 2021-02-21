@@ -14,7 +14,8 @@ export const NavbarStyled = styled.nav`
 		text-decoration: none;
 		color: currentColor;
 		transition: color 0.2s ease-in-out;
-		font-size: 1.6em;
+		font-size: 1.8em;
+		font-weight: bold;
 		&:hover {
 			color: var(--clr-primary-dark);
 		}

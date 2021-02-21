@@ -89,7 +89,6 @@ export const StyledHome = styled.div`
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			cursor: pointer;
 			width: 350px;
 			height: 400px;
 			border: 2px solid var(--clr-primary-dark);
@@ -111,11 +110,6 @@ export const StyledHome = styled.div`
 			.cardInfo {
 				line-height: 1.3em;
 				font-size: 16px;
-			}
-
-			&:hover {
-				background-color: #101010;
-				color: white;
 			}
 		}
 	}
