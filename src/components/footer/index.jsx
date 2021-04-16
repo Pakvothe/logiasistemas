@@ -62,8 +62,8 @@ const Footer = () => {
           <div className="ItemContainer">
             <h3>Contacto</h3>
 
-            <a href="mailto:info@logiasistemas.com.ar">
-              info@logiasistemas.com.ar
+            <a href="mailto:logiasistemas@yandex.com">
+              logiasistemas@yandex.com
             </a>
             <address>Teléfono: (011) 2091-9175</address>
             <address>Móvil:(011) 2461-0062</address>

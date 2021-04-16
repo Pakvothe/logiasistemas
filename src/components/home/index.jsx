@@ -111,6 +111,33 @@ const Home = () => {
             </p>
           </div>
         </Fade>
+        <Fade>
+          <div className="Card">
+            <p className="cardTitle">Domótica</p>
+            <p className="cardInfo">
+              Mediante dispositivos conectados a la red (LAN) vía Ethernet o
+              Wifi se automatizan diferentes sistemas como luces, puertas o
+              portones, persianas cortinas, equipos de aire acondicionado, riego
+              calderas, etc. Los dispositivos conectados transmiten vía internet
+              y se pueden manejar en forma remota a través de App o incluso
+              mediante compatibilidad se pueden manejar por voz vía Amazon Alexa
+              o Google Home.
+            </p>
+          </div>
+        </Fade>
+        <Fade>
+          <div className="Card">
+            <p className="cardTitle">Cerco eléctrico perimetral</p>
+            <p className="cardInfo">
+              El sistema consisten en cercar perimetralmente la propiedad
+              mediante una estructura de hierro y alambres de aluminio,
+              conectando el cerco a un energizador que emite pulsos eléctricos.
+              Este equipo funciona como alarma conectándolo a una sirena
+              directamente o a una zona de alarma existente. Se puede
+              activar/desactivar en forma remota a través de App vía internet.
+            </p>
+          </div>
+        </Fade>
       </div>
       <Fade>
         <h1 className="homeTitle">
