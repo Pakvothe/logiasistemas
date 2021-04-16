@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8503b006.chunk.css",
-    "main.js": "/static/js/main.70cb32a4.chunk.js",
-    "main.js.map": "/static/js/main.70cb32a4.chunk.js.map",
+    "main.js": "/static/js/main.925e8a44.chunk.js",
+    "main.js.map": "/static/js/main.925e8a44.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b950349b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b950349b.js.map",
     "static/js/2.6a28af30.chunk.js": "/static/js/2.6a28af30.chunk.js",
@@ -16,9 +16,11 @@
     "static/media/arrow-up.44313bcc.svg": "/static/media/arrow-up.44313bcc.svg",
     "static/media/briefcase.7429922d.svg": "/static/media/briefcase.7429922d.svg",
     "static/media/celular.510e9c8e.jpg": "/static/media/celular.510e9c8e.jpg",
+    "static/media/cercos.f38ee4b4.jpg": "/static/media/cercos.f38ee4b4.jpg",
     "static/media/check.6b5be2c6.svg": "/static/media/check.6b5be2c6.svg",
     "static/media/deteccion.b77d1fb5.jpg": "/static/media/deteccion.b77d1fb5.jpg",
     "static/media/dinero.68bc8d4d.svg": "/static/media/dinero.68bc8d4d.svg",
+    "static/media/domotica.9393d51c.jpg": "/static/media/domotica.9393d51c.jpg",
     "static/media/gears.0ff4f4ee.svg": "/static/media/gears.0ff4f4ee.svg",
     "static/media/homeback.2c93b220.jpg": "/static/media/homeback.2c93b220.jpg",
     "static/media/moon.a3942c9a.svg": "/static/media/moon.a3942c9a.svg",
@@ -28,6 +30,6 @@
     "static/js/runtime-main.b950349b.js",
     "static/js/2.6a28af30.chunk.js",
     "static/css/main.8503b006.chunk.css",
-    "static/js/main.70cb32a4.chunk.js"
+    "static/js/main.925e8a44.chunk.js"
   ]
 }
