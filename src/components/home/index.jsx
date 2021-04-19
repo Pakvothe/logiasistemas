@@ -29,7 +29,7 @@ const Home = () => {
                 onClick={handleContact}
               >
                 <Link to="/contact" className="ContactButton">
-                  Contactenos
+                  Contáctenos
                 </Link>
               </div>
             </div>
@@ -39,9 +39,9 @@ const Home = () => {
       <div className="intro">
         <Fade>
           <p>
-            Somos una empresa jov﻿en y pujante cuyo objetivo es acercar hacia la
+            ¡Somos una empresa joven y pujante cuyo objetivo es acercar hacia la
             excelencia tecnológica en seguridad y comunicaciones a todos los
-            entes públicos, privados y a toda la comunidad en su conjunto!{" "}
+            entes públicos, privados y a toda la comunidad en su conjunto!
           </p>
         </Fade>
       </div>
@@ -67,9 +67,9 @@ const Home = () => {
             <p className="cardTitle">Portero Visor electrónico</p>
             <p className="cardInfo">
               Es un sistema de portero electrónico con cámara incorporada para
-              visualizar al visitante, ademas permite al visitante dejar
-              mensajes de vídeo cuando no hay nadie en la vivienda.El sistema
-              admite múltiples paneles tanto exteriores como interiores. Ademas
+              visualizar al visitante, además permite al visitante dejar
+              mensajes de vídeo cuando no hay nadie en la vivienda. El sistema
+              admite múltiples paneles tanto exteriores como interiores. Además
               se le puede agregar control de acceso.
             </p>
           </div>
@@ -82,7 +82,7 @@ const Home = () => {
               múltiples puertas mediante tarjetas de proximidad, llaveros de
               proximidad, huellas dactilares y/o rostros. Pueden ser autónomos o
               con reporte. Permite desde 1000 usuarios hasta 30000 usuarios.
-              Ademas contamos con todos los accesorios de herrajes y cerraduras.
+              Además contamos con todos los accesorios de herrajes y cerraduras.
             </p>
           </div>
         </Fade>
@@ -102,10 +102,10 @@ const Home = () => {
             <p className="cardTitle">Alarmas</p>
             <p className="cardInfo">
               Es una central de alarma electrónica e inalámbrica con llamador
-              por red celular GSM, no necesita una linea de teléfono
+              por red celular GSM, no necesita una línea de teléfono
               convencional (Telefónica, Telecom, Cooperativas), solo un chip
               celular (postpago o prepago de cualquier compañía (Movistar,
-              Personal, Claro, Nextel) evitando así posibles cortes en la linea
+              Personal, Claro, Nextel) evitando así posibles cortes en la línea
               de teléfono y evitando de plano la interrupción de la comunicación
               de la alarma.
             </p>
